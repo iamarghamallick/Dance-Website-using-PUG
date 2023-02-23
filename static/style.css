@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Shantell Sans', cursive;
+    height: 100vh;
+}
+
+#navbar {
+    background-color: rgb(255, 0, 0);
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#navbar ul li a:hover {
+    color: rgb(255, 68, 0);
+    background-color: white;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.3rem;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: red;
+}
+
+#introSection div.small {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 326px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+
+}
+
+#missionSection h2, #sponsorsSection h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 220px;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+
+#sponsorsSection {
+    height: 300px;
+    background-color: #ffcecec7;
+    text-align: center;
+}
+
+.spImage{
+    height: 130px;
+    margin: 20px;
+}
+
+#footer {
+    display: flex;
+    background-color: black;
+    height: 3rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
